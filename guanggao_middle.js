@@ -1,0 +1,1 @@
+document.writeln("	<p align=\'center\'><a href=\'\' target=\'_blank\'><img border=\'0\' src=\'\' width=\'100%\'></a></p>");
