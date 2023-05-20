@@ -1,0 +1,480 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,input,button,textarea,th,td {
+
+	margin:0;
+
+	padding:0
+
+}
+
+table {
+
+	border-collapse:collapse;
+
+	border-spacing:0
+
+}
+
+img {
+	width: 100%;
+	height:auto
+	border:0;
+	display: block;
+    margin:0px auto;
+}
+
+a {
+
+	color:#444
+
+}
+
+a:hover {
+
+	left:1px;
+
+	position:relative;
+
+	top:1px;
+
+	text-decoration:underline
+
+}
+
+li {
+
+	list-style:none
+
+}
+
+body {
+
+    max-width:720px;
+    
+	margin:0 auto;
+	
+	overflow-x:hidden;
+	
+	-webkit-text-size-adjust:none;
+
+	-moz-text-size-adjust:none;
+
+	-ms-text-size-adjust:none;
+
+	text-size-adjust:none;
+
+	background:#FFFFFF;
+	
+	font:14px/1.5 'Microsoft YaHei',"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53",arial,georgia,verdana,helvetica,sans-serif;
+
+	color:#444;
+
+	font-weight:bold;
+
+}
+
+textarea {
+	line-height:normal;
+	resize:none;
+	outline:0;
+	vertical-align:middle;
+	-webkit-appearance:none
+}
+
+
+
+a,.but,.inp,select,textarea {
+
+	outline:0;
+
+	blur:expression(this.onFocus=this.blur());
+
+	-webkit-tap-highlight-color:rgba(0,0,0,0)
+
+}
+
+
+.gclear,.header,.footer,.cont,.box,.pages,ul.applist,ul.piclist,ul.limg,ul.txtlist,ul.txt,ul.txt2,ul.txt3,ul.txt4,ul.txt5,ul.txt6,ul.pics {
+
+	zoom:1
+
+}
+
+
+
+div.header {
+
+	background-color:#fbfbfb;
+
+	background:-moz-linear-gradient(top,#fff,#ececec);
+
+	background:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#ececec));
+
+	border-bottom:1px solid #c6c6c6;
+
+	width:100%;
+
+	height:44px;
+
+	moz-box-shadow:0 0 2px rgba(180,180,180,0.7);
+
+	webkit-box-shadow:0 0 2px rgba(180,180,180,0.7);
+
+	box-shadow:0 0 2px rgba(180,180,180,0.7);
+
+	position:relative
+
+}
+
+div.ftop {
+
+	position:fixed;
+
+	top:0;
+
+	z-index:999
+
+}
+
+#tm {
+
+	height:56px;
+
+}
+
+#indextm{
+
+	height:81px;
+
+}
+
+.go6h_header {
+
+	width:100%;
+
+	max-width:720px;
+
+	position:fixed;
+
+	top:0;
+
+	z-index:999;
+
+	border-bottom-left-radius: 5px;
+
+	border-bottom-right-radius: 5px;
+
+	overflow: hidden;
+
+	box-shadow: 0 1px 10px #000;
+
+}
+
+.go6h_bottom {
+
+	width:100%;
+
+	max-width:720px;
+
+	position:fixed;
+
+	bottom:0;
+
+	z-index:999;
+
+	border-top-left-radius: 5px;
+
+	border-top-right-radius: 5px;
+
+	overflow: hidden;
+
+	box-shadow: 0 1px 10px #000;
+
+}
+
+.top-header{
+
+	position: relative;
+
+	height:53px;
+
+	background:#FFFFFF url() center right no-repeat;
+
+}
+
+.bottom-header{
+
+	height: 30px;
+
+	background:#0e2e45;
+
+}
+
+.bottom-header a{
+
+	display: block;
+
+    float: left;
+
+    height: 30px;
+
+    line-height: 30px;
+
+    width: 20%;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+.go6h_header .go6h_header_ul {
+
+	float:left
+
+}
+
+.go6h_header .go6h_header_li {
+
+	float:left;
+
+	position:relative;
+
+	padding-left:16.5px;
+
+	height:50px;
+
+	line-height:44px;
+
+	font-size:1.4rem;
+
+	color:#fff
+
+}
+
+.go6h_header .go6h_header_li i {
+
+	display:block;
+
+	height:44px;
+
+	width:16.5px;
+
+	position:absolute;
+
+	top:0;
+
+	right:-15px;
+
+	z-index:999;
+
+	background-size:16.5px
+
+}
+
+.go6h_header :active.go6h_header_li {
+
+	background-color:#FFFFFF
+
+}
+
+.go6h_header :active.go6h_header_li i {
+
+	background-size:16.5px
+
+}
+
+.go6h_header .go6h_header_li.go6h_header_logo {
+
+	padding-left:5px;
+
+}
+
+.go6h_header .go6h_header_li.go6h_header_logo img{
+
+	width: 260px;
+
+	height: 50px;
+
+}
+
+.go6h_header_right {
+
+	position: absolute;
+
+	right: 0;
+
+	font-size:0;
+
+	margin-top: 2px;
+
+}
+
+.go6h_header_right .link,.go6h_header_right span {
+
+	font-size:8pt width:60px;
+
+	height:34px;
+
+	text-align:center;
+
+	color:#000;
+
+	padding-top:2px;
+
+	box-sizing:border-box;
+
+	display:inline-block;
+
+	text-decoration:none;
+
+	padding-right:8px
+
+}
+
+.go6h_header_right .go6h_header_rightPhoneIcon,.go6h_header_right .go6h_header_rightUserIcon,.go6h_header_right .go6h_header_rightFeedbackIcon {
+
+	font-size:8pt
+
+}
+
+.go6h_header_right .go6h_header_rightUserIcon img{
+
+	display: block;
+
+	width: 23px;
+
+	height: 23px;
+
+	margin:0 auto;
+
+}
+
+.go6h_header_right .go6h_header_rightPhoneIcon {
+
+	background:url("Phone.png")/*tpa=../public/Phone.png*/ no-repeat center 9px;
+
+	background-size:9px
+
+}
+
+.go6h_header_right .go6h_header_rightFeedbackIcon {
+
+	background:url("Feedback.png")/*tpa=../public/Feedback.png*/ no-repeat center 9px;
+
+	background-size:15px
+
+}
+
+div.header h1,div.header h2,div.header h3 {
+
+	text-shadow:1px 1px 0 #fff;
+
+	font-size:14pt;
+
+	text-align:center;
+
+	line-height:44px
+
+}
+
+div.cont h2,div.cont h3 {
+
+	color:green
+
+}
+
+
+
+.b {
+
+	font-weight:bold
+
+}
+
+
+.bbb,.br,.brl,.blr,.btr,.brt,.bbr,.brb {
+
+	border-right:1px solid #e5e5e5
+
+}
+
+
+table td {
+
+	border:1px solid #e5e5e5;
+
+	padding:2px 2px;
+
+	word-break:break-all
+
+}
+
+table.center td,table.center th,tr.center td,tr.center th,td.center {
+
+	text-align:center
+
+}
+
+table.nob,table.nob th,table.nob td {
+
+	border:0
+
+}
+
+div.cont {
+	padding:8px
+}
+
+
+div.box {
+	max-width:720px;
+	margin:0 8px 8px;
+	background-color:#fff
+}
+
+@media screen and (min-width:720px) {
+	div.box,div.adbox,div.nobox {
+	margin:0 auto 3px;
+	max-width:720px
+}
+
+}div.box img {
+	vertical-align:middle
+}
+div.box div.title,div.box div.otitle,div.box div.foot {
+	font-size:9pt;
+	padding:4px 8px;
+	color:#666;
+	background-color:#fbfbfb;
+	background:-moz-linear-gradient(top,#fff,#f8f8f8);
+	background:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f8f8f8));
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee
+}
+div.box div.title {
+	border-top:0;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px
+}
+
+div.box,.shadow,div.pop,.pages a {
+	-moz-box-shadow:0 1px 2px rgba(180,180,180,0.7);
+	-webkit-box-shadow:0 1px 2px rgba(180,180,180,0.7);
+	box-shadow:0 1px 2px rgba(180,180,180,0.7)
+}
+
+div.box,.rpic,div.pop,#gotop,.pages a {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px
+}
+
+table.sbut,table.sbut tr,table.sbut th,table.sbut td {
+	border:0
+}
